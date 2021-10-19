@@ -1,0 +1,8 @@
+#Name:  Xing Tao Shi
+#Email:  XingTao.Shi50@myhunter.cuny.edu
+#Date:  September 2019
+#Takes elevation data of NYC and displays using the default color map
+
+out1 = in1 and in2
+out2 = (not (in1 and in2)) and (in1 or in2)
+out3 = not in2
