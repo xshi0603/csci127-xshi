@@ -8,22 +8,22 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 name = input("Enter borough name: ")
-output = str(input("Enter borough name: "))
+output = input("Enter output name: ")
 
 #Open the CSV file and store in pop
-pop = pd.read_csv('covidCases.csv',skiprows=5)
+pop = pd.read_csv('covidCases.csv')
 
-print("Min: " + str(pop.min()))
-print("Max: " + str(pop.max()))
-print("Mean: " + str(pop.mean()))
-print("Median: " + str(pop.median()))
-print("Standard Deviation: " + str(pop.std()))
+print("Min: " + str(pop[name].min()))
+print("Max: " + str(pop[name].max()))
+print("Mean: " + str(pop[name].mean()))
+print("Median: " + str(pop[name].median()))
+print("Standard Deviation: " + str(pop[name].std()))
 
 #Compute the fraction of the population in the Bronx, and save as new column:
-pop['Fraction'] = pop[name]/pop['Total']
+pop['Fraction'] = pop[name]/pop['Case Count']
 
 #Create a plot of year versus fraction of pop. in Bronx (with labels):
-pop.plot(x = 'Year', y = 'Fraction')
+pop.plot(x = 'Date of Interest', y = 'Fraction')
 
 #Save to the file:  fractionBX.png
 fig = plt.gcf()
