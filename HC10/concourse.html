@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e0157c44915443ea8ea82848ccb4c3f0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e0157c44915443ea8ea82848ccb4c3f0" ></div>
+        
+</body>
+<script>    
+    
+            var map_e0157c44915443ea8ea82848ccb4c3f0 = L.map(
+                "map_e0157c44915443ea8ea82848ccb4c3f0",
+                {
+                    center: [40.768731, -73.964915],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f0ec02d5950f4a209b51580d6b2bdf58 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+            var marker_72a891ab3eb44d56b1396671217ffd55 = L.marker(
+                [40.827932000000004, -73.924675],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_1d5f1575f7114553bf9651799a469371 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c26df6a04eaf423fad9a1bcd96ca8c5e = $(`<div id="html_c26df6a04eaf423fad9a1bcd96ca8c5e" style="width: 100.0%; height: 100.0%;">Bronx Drafthouse</div>`)[0];
+            popup_1d5f1575f7114553bf9651799a469371.setContent(html_c26df6a04eaf423fad9a1bcd96ca8c5e);
+        
+
+        marker_72a891ab3eb44d56b1396671217ffd55.bindPopup(popup_1d5f1575f7114553bf9651799a469371)
+        ;
+
+        
+    
+    
+            var marker_597fe196c49a49c7b5b15bedb2536f40 = L.marker(
+                [40.842157, -73.915736],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_b9b59591a91c40f7b668b76ad2a66b84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64bc57bf2e884fda8d1ab078732d504f = $(`<div id="html_64bc57bf2e884fda8d1ab078732d504f" style="width: 100.0%; height: 100.0%;">LA SABROSURA 1 RESTAURANT CORP.</div>`)[0];
+            popup_b9b59591a91c40f7b668b76ad2a66b84.setContent(html_64bc57bf2e884fda8d1ab078732d504f);
+        
+
+        marker_597fe196c49a49c7b5b15bedb2536f40.bindPopup(popup_b9b59591a91c40f7b668b76ad2a66b84)
+        ;
+
+        
+    
+    
+            var marker_ae038422f2b54b33a0c33720abce4f28 = L.marker(
+                [40.838632000000004, -73.91882700000001],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_f734687e5cbc4d8b9ad34e2b0efa3a95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7fca210e3f342baa7e6203988f37afd = $(`<div id="html_a7fca210e3f342baa7e6203988f37afd" style="width: 100.0%; height: 100.0%;">TULARCITO BAKERY LLC</div>`)[0];
+            popup_f734687e5cbc4d8b9ad34e2b0efa3a95.setContent(html_a7fca210e3f342baa7e6203988f37afd);
+        
+
+        marker_ae038422f2b54b33a0c33720abce4f28.bindPopup(popup_f734687e5cbc4d8b9ad34e2b0efa3a95)
+        ;
+
+        
+    
+    
+            var marker_7fb9a35926f74cf08834efc23ac4bb8b = L.marker(
+                [40.844171, -73.914345],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_e8beebcec92742df9ca68721f0e6b87c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b53b9e8db7ba4757b845526c63dac273 = $(`<div id="html_b53b9e8db7ba4757b845526c63dac273" style="width: 100.0%; height: 100.0%;">TAQUERIA HUARACHE</div>`)[0];
+            popup_e8beebcec92742df9ca68721f0e6b87c.setContent(html_b53b9e8db7ba4757b845526c63dac273);
+        
+
+        marker_7fb9a35926f74cf08834efc23ac4bb8b.bindPopup(popup_e8beebcec92742df9ca68721f0e6b87c)
+        ;
+
+        
+    
+    
+            var marker_e7688680f3534dbb981899c49cd4358d = L.marker(
+                [40.839841, -73.916653],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_79c6fd142215487c9c4696b0821aa1bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1b32476b1494012b62b4c2458c3c51f = $(`<div id="html_a1b32476b1494012b62b4c2458c3c51f" style="width: 100.0%; height: 100.0%;">LA SABROSURA 1 RESTAURANT CORP.</div>`)[0];
+            popup_79c6fd142215487c9c4696b0821aa1bb.setContent(html_a1b32476b1494012b62b4c2458c3c51f);
+        
+
+        marker_e7688680f3534dbb981899c49cd4358d.bindPopup(popup_79c6fd142215487c9c4696b0821aa1bb)
+        ;
+
+        
+    
+    
+            var marker_45f65b7a38024786a11e0599a424e2c7 = L.marker(
+                [40.844404, -73.914916],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_ca7b4b8d8dd049cdbb11ac01029d60e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4cf9f69ffc43be813dd39426de9959 = $(`<div id="html_0c4cf9f69ffc43be813dd39426de9959" style="width: 100.0%; height: 100.0%;">27 SPORTS BAR AND CAFE, INC.</div>`)[0];
+            popup_ca7b4b8d8dd049cdbb11ac01029d60e1.setContent(html_0c4cf9f69ffc43be813dd39426de9959);
+        
+
+        marker_45f65b7a38024786a11e0599a424e2c7.bindPopup(popup_ca7b4b8d8dd049cdbb11ac01029d60e1)
+        ;
+
+        
+    
+    
+            var marker_437048d44f484ad18f5abb7bcc36471f = L.marker(
+                [40.844495, -73.91514000000001],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_e6ac25940f8348e0bbb010ce51b0257f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e1edb345e0b4a93bdf480e85a679f14 = $(`<div id="html_5e1edb345e0b4a93bdf480e85a679f14" style="width: 100.0%; height: 100.0%;">CRUSH BAR & LOUNGE</div>`)[0];
+            popup_e6ac25940f8348e0bbb010ce51b0257f.setContent(html_5e1edb345e0b4a93bdf480e85a679f14);
+        
+
+        marker_437048d44f484ad18f5abb7bcc36471f.bindPopup(popup_e6ac25940f8348e0bbb010ce51b0257f)
+        ;
+
+        
+    
+    
+            var marker_53025e877d0d4435b8fd4a0fd32cff07 = L.marker(
+                [40.838267, -73.919134],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_d44c30d41d774d73a56fec284ee9ad4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ee527015a4e4ab8bc1428e81ffc5964 = $(`<div id="html_4ee527015a4e4ab8bc1428e81ffc5964" style="width: 100.0%; height: 100.0%;">LA FUENTE STEAK HOUSE CORP.</div>`)[0];
+            popup_d44c30d41d774d73a56fec284ee9ad4f.setContent(html_4ee527015a4e4ab8bc1428e81ffc5964);
+        
+
+        marker_53025e877d0d4435b8fd4a0fd32cff07.bindPopup(popup_d44c30d41d774d73a56fec284ee9ad4f)
+        ;
+
+        
+    
+    
+            var marker_1f63c37bfddf4daa806ff2851ed2f4e8 = L.marker(
+                [40.827244, -73.926248],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_06375d6010974c38be50c9db0f2a314c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c82b0febfd9d4d189f65201126b682d3 = $(`<div id="html_c82b0febfd9d4d189f65201126b682d3" style="width: 100.0%; height: 100.0%;">billys sports bar</div>`)[0];
+            popup_06375d6010974c38be50c9db0f2a314c.setContent(html_c82b0febfd9d4d189f65201126b682d3);
+        
+
+        marker_1f63c37bfddf4daa806ff2851ed2f4e8.bindPopup(popup_06375d6010974c38be50c9db0f2a314c)
+        ;
+
+        
+    
+    
+            var marker_1cc44427cfa643e8b037aa4fdca4a232 = L.marker(
+                [40.827564, -73.92514200000001],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_49fdb064c57b4696bd3e744ce249aa39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b064da106844e86897c26302a3fb841 = $(`<div id="html_6b064da106844e86897c26302a3fb841" style="width: 100.0%; height: 100.0%;">YANKEE TAVERN</div>`)[0];
+            popup_49fdb064c57b4696bd3e744ce249aa39.setContent(html_6b064da106844e86897c26302a3fb841);
+        
+
+        marker_1cc44427cfa643e8b037aa4fdca4a232.bindPopup(popup_49fdb064c57b4696bd3e744ce249aa39)
+        ;
+
+        
+    
+    
+            var marker_9512e19eb05f4a0dba200d1e36d5cf0b = L.marker(
+                [40.839129, -73.914807],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_caa3112724424f2ab41b215b9cd5281f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42b642e58bb84d298905f1ff1f82538a = $(`<div id="html_42b642e58bb84d298905f1ff1f82538a" style="width: 100.0%; height: 100.0%;">NY FISH HOUSE &amp; CRISPY CHICKEN</div>`)[0];
+            popup_caa3112724424f2ab41b215b9cd5281f.setContent(html_42b642e58bb84d298905f1ff1f82538a);
+        
+
+        marker_9512e19eb05f4a0dba200d1e36d5cf0b.bindPopup(popup_caa3112724424f2ab41b215b9cd5281f)
+        ;
+
+        
+    
+    
+            var marker_bc76df0fcf894f618778abda125b096d = L.marker(
+                [40.834957, -73.918994],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_121c1ca52dc844faa137310006a8dd09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02dcf03a156a4d9aaedbfd811bf1f5a4 = $(`<div id="html_02dcf03a156a4d9aaedbfd811bf1f5a4" style="width: 100.0%; height: 100.0%;">Mi Pueblito</div>`)[0];
+            popup_121c1ca52dc844faa137310006a8dd09.setContent(html_02dcf03a156a4d9aaedbfd811bf1f5a4);
+        
+
+        marker_bc76df0fcf894f618778abda125b096d.bindPopup(popup_121c1ca52dc844faa137310006a8dd09)
+        ;
+
+        
+    
+    
+            var marker_767eb462a7084fccb9cff46d72f1aa62 = L.marker(
+                [40.841614, -73.916691],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_f31c6cdf0edc4a4c81a12f195b1758c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72e8c0f85d7641aca0e09bae62ff97dd = $(`<div id="html_72e8c0f85d7641aca0e09bae62ff97dd" style="width: 100.0%; height: 100.0%;">LA ESTRELLA BAR & RESTAURANT</div>`)[0];
+            popup_f31c6cdf0edc4a4c81a12f195b1758c9.setContent(html_72e8c0f85d7641aca0e09bae62ff97dd);
+        
+
+        marker_767eb462a7084fccb9cff46d72f1aa62.bindPopup(popup_f31c6cdf0edc4a4c81a12f195b1758c9)
+        ;
+
+        
+    
+    
+            var marker_b2dda62f850745ff8077904aa10b6f79 = L.marker(
+                [40.838534, -73.91889499999999],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_6695108235dc4f1797e740d469cc36ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4c7a63d7d5e41eaa200e4c1f8fc6973 = $(`<div id="html_c4c7a63d7d5e41eaa200e4c1f8fc6973" style="width: 100.0%; height: 100.0%;">Angiolina's Restaurant</div>`)[0];
+            popup_6695108235dc4f1797e740d469cc36ee.setContent(html_c4c7a63d7d5e41eaa200e4c1f8fc6973);
+        
+
+        marker_b2dda62f850745ff8077904aa10b6f79.bindPopup(popup_6695108235dc4f1797e740d469cc36ee)
+        ;
+
+        
+    
+    
+            var marker_e8c0997438694fc4bff3cec02f98f42a = L.marker(
+                [40.838267, -73.919134],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_fd0199229a2c44bbbae9bb1df36a4276 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c8a792748c44d498a0b130920b257da = $(`<div id="html_8c8a792748c44d498a0b130920b257da" style="width: 100.0%; height: 100.0%;">LA FUENTE STEAK HOUSE CORP.</div>`)[0];
+            popup_fd0199229a2c44bbbae9bb1df36a4276.setContent(html_8c8a792748c44d498a0b130920b257da);
+        
+
+        marker_e8c0997438694fc4bff3cec02f98f42a.bindPopup(popup_fd0199229a2c44bbbae9bb1df36a4276)
+        ;
+
+        
+    
+    
+            var marker_5d9ebc887a7a4bf6bf279e1a938f808a = L.marker(
+                [40.823932, -73.928033],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_10a7abc2f2164b32aa19b0e0090929d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3a974b6650e4e4ba6fcb819f746e472 = $(`<div id="html_e3a974b6650e4e4ba6fcb819f746e472" style="width: 100.0%; height: 100.0%;">San Jose Tulcingo Deli INC</div>`)[0];
+            popup_10a7abc2f2164b32aa19b0e0090929d0.setContent(html_e3a974b6650e4e4ba6fcb819f746e472);
+        
+
+        marker_5d9ebc887a7a4bf6bf279e1a938f808a.bindPopup(popup_10a7abc2f2164b32aa19b0e0090929d0)
+        ;
+
+        
+    
+    
+            var marker_98cb0f8969764effac3c9c6b7d974e89 = L.marker(
+                [40.838267, -73.919134],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_0bca8ae65fe24d84855a354d4edd8809 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c5c6454f02c4b449bd239e216bbb9a3 = $(`<div id="html_0c5c6454f02c4b449bd239e216bbb9a3" style="width: 100.0%; height: 100.0%;">LA FUENTE STEAK HOUSE CORP.</div>`)[0];
+            popup_0bca8ae65fe24d84855a354d4edd8809.setContent(html_0c5c6454f02c4b449bd239e216bbb9a3);
+        
+
+        marker_98cb0f8969764effac3c9c6b7d974e89.bindPopup(popup_0bca8ae65fe24d84855a354d4edd8809)
+        ;
+
+        
+    
+    
+            var marker_440d62768c2340e9864c6191917b5827 = L.marker(
+                [40.834759999999996, -73.919666],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_5b050c2d5eb24824be5cb3d040b33ec2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_627a89999acb4cc794f676bc0f1eeb7a = $(`<div id="html_627a89999acb4cc794f676bc0f1eeb7a" style="width: 100.0%; height: 100.0%;">Country Style Restaurant</div>`)[0];
+            popup_5b050c2d5eb24824be5cb3d040b33ec2.setContent(html_627a89999acb4cc794f676bc0f1eeb7a);
+        
+
+        marker_440d62768c2340e9864c6191917b5827.bindPopup(popup_5b050c2d5eb24824be5cb3d040b33ec2)
+        ;
+
+        
+    
+    
+            var marker_2f1f9cfc47e247238a1dbfd67bff34de = L.marker(
+                [40.826966999999996, -73.926411],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_2517a87eb68540a29530d593cc02b587 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f2ff0b9184d4057874067fbcb6bb8d4 = $(`<div id="html_3f2ff0b9184d4057874067fbcb6bb8d4" style="width: 100.0%; height: 100.0%;">vivar</div>`)[0];
+            popup_2517a87eb68540a29530d593cc02b587.setContent(html_3f2ff0b9184d4057874067fbcb6bb8d4);
+        
+
+        marker_2f1f9cfc47e247238a1dbfd67bff34de.bindPopup(popup_2517a87eb68540a29530d593cc02b587)
+        ;
+
+        
+    
+    
+            var marker_0a8afe39bc1d47058daacb8915b85a1d = L.marker(
+                [40.827661, -73.925463],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_398abb3780244f3cb1dba0960a00d046 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc16b79e21d74b8eb0c4eef6b9635a49 = $(`<div id="html_dc16b79e21d74b8eb0c4eef6b9635a49" style="width: 100.0%; height: 100.0%;">billys sports bar</div>`)[0];
+            popup_398abb3780244f3cb1dba0960a00d046.setContent(html_dc16b79e21d74b8eb0c4eef6b9635a49);
+        
+
+        marker_0a8afe39bc1d47058daacb8915b85a1d.bindPopup(popup_398abb3780244f3cb1dba0960a00d046)
+        ;
+
+        
+    
+    
+            var marker_9879c6a2eb254cbf9e6950818d7198e1 = L.marker(
+                [40.827883, -73.924708],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_8d71a849e2c24387998c19ba081502cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a4d70e7c35e435398709da7e15cbbd8 = $(`<div id="html_7a4d70e7c35e435398709da7e15cbbd8" style="width: 100.0%; height: 100.0%;">Vega Alta Sports Bar Inc.</div>`)[0];
+            popup_8d71a849e2c24387998c19ba081502cb.setContent(html_7a4d70e7c35e435398709da7e15cbbd8);
+        
+
+        marker_9879c6a2eb254cbf9e6950818d7198e1.bindPopup(popup_8d71a849e2c24387998c19ba081502cb)
+        ;
+
+        
+    
+    
+            var marker_f9aeb62d3df14094ba782b98537e1883 = L.marker(
+                [40.826898, -73.926451],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_6bb5672cba61486197d5eeb5cf40dbfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3b0111f1b114b9ca7ef2388dc7a6dba = $(`<div id="html_b3b0111f1b114b9ca7ef2388dc7a6dba" style="width: 100.0%; height: 100.0%;">Stan's sports bar</div>`)[0];
+            popup_6bb5672cba61486197d5eeb5cf40dbfe.setContent(html_b3b0111f1b114b9ca7ef2388dc7a6dba);
+        
+
+        marker_f9aeb62d3df14094ba782b98537e1883.bindPopup(popup_6bb5672cba61486197d5eeb5cf40dbfe)
+        ;
+
+        
+    
+    
+            var marker_497feb0ea31c424b8e1dc23de033589a = L.marker(
+                [40.823932, -73.928033],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_58b199227b8447d5aa24545d842228aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ab0a4cba8674b019fe1e0dd72387a2e = $(`<div id="html_6ab0a4cba8674b019fe1e0dd72387a2e" style="width: 100.0%; height: 100.0%;">San Jose Tulcingo deli INC</div>`)[0];
+            popup_58b199227b8447d5aa24545d842228aa.setContent(html_6ab0a4cba8674b019fe1e0dd72387a2e);
+        
+
+        marker_497feb0ea31c424b8e1dc23de033589a.bindPopup(popup_58b199227b8447d5aa24545d842228aa)
+        ;
+
+        
+    
+    
+            var marker_09c5cc7357ef41ddb8072f7697e5204c = L.marker(
+                [40.825523, -73.92655],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_65924c6da08b41c3999fe4b1dbc6ce55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ae18953a2d24ca3b7f6c9f49b3934b1 = $(`<div id="html_9ae18953a2d24ca3b7f6c9f49b3934b1" style="width: 100.0%; height: 100.0%;">HOME RUN SPORTS BAR RESTAURANT CORP.</div>`)[0];
+            popup_65924c6da08b41c3999fe4b1dbc6ce55.setContent(html_9ae18953a2d24ca3b7f6c9f49b3934b1);
+        
+
+        marker_09c5cc7357ef41ddb8072f7697e5204c.bindPopup(popup_65924c6da08b41c3999fe4b1dbc6ce55)
+        ;
+
+        
+    
+    
+            var marker_2d7d5100cc5a41c88e3993b487b6265e = L.marker(
+                [40.828333, -73.925625],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_ae7308fe549943feabd8e303e14bf464 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8492be86d52e420cb1a1f0b1cd1f2056 = $(`<div id="html_8492be86d52e420cb1a1f0b1cd1f2056" style="width: 100.0%; height: 100.0%;">Taco Bell Cantina</div>`)[0];
+            popup_ae7308fe549943feabd8e303e14bf464.setContent(html_8492be86d52e420cb1a1f0b1cd1f2056);
+        
+
+        marker_2d7d5100cc5a41c88e3993b487b6265e.bindPopup(popup_ae7308fe549943feabd8e303e14bf464)
+        ;
+
+        
+    
+    
+            var marker_faad4bf54dea44eabe7b05b424cb8058 = L.marker(
+                [40.835837, -73.921631],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_2979cfd5239f423f80b47aeceb0cfa24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_449606673d964ac585440221e59cff7b = $(`<div id="html_449606673d964ac585440221e59cff7b" style="width: 100.0%; height: 100.0%;">ANYELISA REST CORP.</div>`)[0];
+            popup_2979cfd5239f423f80b47aeceb0cfa24.setContent(html_449606673d964ac585440221e59cff7b);
+        
+
+        marker_faad4bf54dea44eabe7b05b424cb8058.bindPopup(popup_2979cfd5239f423f80b47aeceb0cfa24)
+        ;
+
+        
+    
+    
+            var marker_f035813e067e4e9da4e3a968f2f1a963 = L.marker(
+                [40.823932, -73.928033],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_3c403adf782346a29b14dcf164634acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de12ea643aeb48ec8b3ca7d893ec4f44 = $(`<div id="html_de12ea643aeb48ec8b3ca7d893ec4f44" style="width: 100.0%; height: 100.0%;">SAN JOSE RESTAURANT</div>`)[0];
+            popup_3c403adf782346a29b14dcf164634acc.setContent(html_de12ea643aeb48ec8b3ca7d893ec4f44);
+        
+
+        marker_f035813e067e4e9da4e3a968f2f1a963.bindPopup(popup_3c403adf782346a29b14dcf164634acc)
+        ;
+
+        
+    
+    
+            var marker_34a99f7ca40848c78950aa496cbd034c = L.marker(
+                [40.841654999999996, -73.916662],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_7ba52be964fa4bd4b85f88dc4acd502f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abed70484d2d4de58b1d08527b98bf2e = $(`<div id="html_abed70484d2d4de58b1d08527b98bf2e" style="width: 100.0%; height: 100.0%;">LA ESTRELLA BAR & RESTAURANT</div>`)[0];
+            popup_7ba52be964fa4bd4b85f88dc4acd502f.setContent(html_abed70484d2d4de58b1d08527b98bf2e);
+        
+
+        marker_34a99f7ca40848c78950aa496cbd034c.bindPopup(popup_7ba52be964fa4bd4b85f88dc4acd502f)
+        ;
+
+        
+    
+    
+            var marker_31f38203126b43f793591a7adad37b4c = L.marker(
+                [40.827355, -73.924387],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_4bbf9d7ab7934af7952055ee65956255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be09e69fe05d4f7ab338ea27c47d2adc = $(`<div id="html_be09e69fe05d4f7ab338ea27c47d2adc" style="width: 100.0%; height: 100.0%;">MOLINO ROJO RESTAURANT</div>`)[0];
+            popup_4bbf9d7ab7934af7952055ee65956255.setContent(html_be09e69fe05d4f7ab338ea27c47d2adc);
+        
+
+        marker_31f38203126b43f793591a7adad37b4c.bindPopup(popup_4bbf9d7ab7934af7952055ee65956255)
+        ;
+
+        
+    
+    
+            var marker_7508b2f734ea430e9e23182c97586eab = L.marker(
+                [40.838501, -73.91891700000001],
+                {}
+            ).addTo(map_e0157c44915443ea8ea82848ccb4c3f0);
+        
+    
+        var popup_51db823035084a7c88248f505f9e016d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2ae917a743f407697306bfa44149881 = $(`<div id="html_b2ae917a743f407697306bfa44149881" style="width: 100.0%; height: 100.0%;">TACOS SAN LUCAS</div>`)[0];
+            popup_51db823035084a7c88248f505f9e016d.setContent(html_b2ae917a743f407697306bfa44149881);
+        
+
+        marker_7508b2f734ea430e9e23182c97586eab.bindPopup(popup_51db823035084a7c88248f505f9e016d)
+        ;
+
+        
+    
+</script>
